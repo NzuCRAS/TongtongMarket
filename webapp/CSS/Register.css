@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+li{
+    list-style:none;
+    margin-top: 10px;
+}
+#register_form_container{
+    width: 500px;
+    height: 300px;
+    margin:100px auto;
+    text-align: center;
+    /* background-color: yellow; */
+}
+#register_button{
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+}

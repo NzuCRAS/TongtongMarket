@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+li{
+    list-style:none;
+}
+body {
+    background-color: #fafafa; /* 浏览器背景略灰 */
+}
+#container_form {
+    width:720px;
+    height:340px;
+    position:relative;
+    margin:140px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* 轻微阴影 */
+    background-color: #ffffff; /* 确保容器背景为白色 */
+    border: 1px solid #e0e0e0; /* 浅灰色边框 */
+    border-radius:14px;
+}
+/*左侧的容器*/
+#container_left {
+    width:280px;
+    height:340px;
+    padding:40px 40px;
+    position:absolute;
+    left:0px;
+    /* background-color:yellow; */
+}
+/*右侧的容器*/
+#container_right {
+    width:440px;
+    height:340px;
+    position:absolute;
+    right:0px;
+    /* background-color: #e285e8; */
+}
+/*用户登录这四个字*/
+#login_name {
+    width:100px;
+    height:32px;
+    position:absolute;
+    left:120px;
+    top:40px;
+    text-align:center;
+    font-size:18px;
+    color: #66adca;
+}
+/*用户登录和账户注册之间的小线*/
+#xian {
+    width:1px;
+    height:28px;
+    position:absolute;
+    left:218px;
+    top:40px;
+    border: none;
+    background-color: #776d6d;
+}
+/*左边和右边之间的大线*/
+#xian2 {
+    width:2px;
+    height:160px;
+    position:absolute;
+    left:290px;
+    bottom:70px;
+    border: none;
+    background-color: #776d6d;
+}
+/*账户注册这四个字*/
+#register_name {
+    display: inline-block;
+    width:100px;
+    height:32px;
+    position:absolute;
+    right:120px;
+    top:40px;
+    text-align:center;
+    font-size:18px;
+    text-decoration: none;
+    color: black;
+}
+#container_form_login{
+    width:300px;
+    height:200px;
+    position:absolute;
+    /*background-color:pink;*/
+    bottom:50px;
+    left:70px;
+}
+#form_login_list{
+    width:300px;
+    height:160px;
+    display: flex;          /* 启用 Flex 布局 */
+    flex-direction: column; /* 主轴方向为垂直（默认是水平） */
+    justify-content: center;/* 主轴（垂直）居中对齐 */
+    align-items: center;    /* 交叉轴（水平）居中对齐 */
+}
+/*里面有label和输入名字框(登录)*/
+#container_login_name{
+    width:300px;
+    height:50px;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    border:1px solid #433d3d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top:20px;
+}
+/*里面有label和密码输入框(登录)*/
+#container_login_password{
+    width:300px;height:50px;
+    text-align:center;
+    /*padding-left:17px;*/
+    display: flex;
+    border:1px solid #433d3d;
+    border-top:none;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*里面有提交的button(登录)*/
+#container_login_button{
+    width:260px;height:60px;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    padding:0 80px;
+}
+/*登录时的输入名字的框*/
+#login_name_input{
+    width:140px;height:48px;
+    margin-left:8px;
+    font-size:16px;
+    border:none;outline: none;
+}
+#login_password_input{
+    width:140px;height:48px;
+    margin-left:8px;
+    font-size:16px;
+    border:none;outline: none;
+}
+/*登录时用户名的label*/
+#label1 {
+    height:20px;
+    width:70px;
+    line-height:20px;
+    text-align: right;
+}
+/*登录时密码的label*/
+#label2 {
+    height:20px;
+    width:70px;
+    line-height:20px;
+    text-align: right;
+}
+/*登录时的登录按钮*/
+#button1 {
+    width:100px;height:40px;
+    text-align:center;
+    font-size:18px;
+    line-height:40px;
+    background-color: #a5d8ed;
+    border:none;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+/* 左边的内容 */
+#title_market{
+    position: absolute;
+    top:40px;
+    font-size:20px;
+    left:100px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+#jhy{
+    display: inline-block;
+    position: absolute;
+    color:#0f730f;
+    left:118px;
+    top:107px;
+}
+#star{
+    position: absolute;
+    left:126px;
+    top:150px;
+}
+#zwk{
+    display: inline-block;
+    position: absolute;
+    color:#ef954e;
+    left:93px;
+    top:162px;
+}
+#ctj{
+    display: inline-block;
+    position: absolute;
+    color:rgb(238, 134, 151);
+    left:150px;
+    top:162px;
+}
+#copyright{
+    font-size:14px;
+    color:#776d6d;
+    position: absolute;
+    bottom:10px;
+    right:20px;
+}
