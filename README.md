@@ -3,7 +3,7 @@
 
 作为数据库课设的小组作业
 
-jsp + CSS + JavaScript + Servlet + JavaBean + JDBC
+jsp + CSS + JavaScript + Servlet + JavaBean + JDBC + MySQL
 
 单点部署 无并发处理
 
